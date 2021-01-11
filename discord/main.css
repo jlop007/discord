@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Whitney Light';
+    src: url('./assets/fonts/whitneylight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Medium';
+    src: url('./assets/fonts/whitneymedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Whitney Bold';
+    src: url('./assets/fonts/whitneybold.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --light-clr: #FFF;
+    --dark-clr: #23272A;
+    --brand-clr: #7289DA;
+    --off-white-clr: #f6f6f6;
+    --general-font-size: 2rem;
+    --primary-title-font-size: 4.8rem;
+    --secondary-title-font-size: 4rem;
+    --main-font-family-light: 'Whitney Light', sans-serif;
+    --main-font-family-medium: 'Whitney Medium', sans-serif;
+    --main-font-family-bold: 'Whitney Bold', sans-serif;
+    --num-of-grid-columns: 4;
+    --section-spacing: 5.6rem 2.4rem;
+    --container-width: 126rem;
+}
+
+body {
+    font-size: var(--general-font-size);
+    font-family: var(--main-font-family-light);
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*@keyframes wave-animation {*/
+/*    0% {*/
+/*        d: path("M826.337463,25.5396311 C670.970254,58.655965 603.696181,68.7870267 447.802481,35.1443383 C293.342778,1.81111414 137.33377,1.81111414 0,1.81111414 L0,150 L1920,150 L1920,1.81111414 C1739.53523,-16.6853983 1679.86404,73.1607868 1389.7826,37.4859505 C1099.70117,1.81111414 981.704672,-7.57670281 826.337463,25.5396311 Z");*/
+/*    }*/
+/*    50% {*/
+/*        d: path("M655.558582,28.4898877 C500.191373,61.6062216 422.833785,83.5422763 266.940085,49.8995879 C112.480383,16.5663637 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,49.8995879 C1580.91676,-34.8808285 1438.10804,73.6768193 1148.0266,38.0019829 C857.945166,2.32714659 810.925791,-4.62644617 655.558582,28.4898877 Z");*/
+/*    }*/
+/*    100% {*/
+/*        d: path("M842.322034,38.0019829 C686.954825,71.1183168 623.386282,53.08497 467.492582,19.4422816 C313.032879,-13.8909426 84.0992497,8.02840272 0,44.7243294 L0,150.727527 L1920,150.727527 L1920,76.8685643 C1512.23604,-35.3595639 1568.70222,67.4289432 1278.62078,31.7541069 C988.539347,-3.92072949 997.689243,4.88564905 842.322034,38.0019829 Z");*/
+/*    }*/
+/*}*/
